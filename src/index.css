@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Rubik", serif;
+}
+
+/** CAROUSEL PRINCIPAL */
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+/** CAROUSEL de thumbs, las opciones */
+
+.embla__thumbs {
+  overflow: hidden;
+}
+.embla__container__thumbs {
+  display: flex;
+ 
+}
+.embla__slide__thumbs {
+  flex: 0 0 22%;
+  min-width: 0;
+}
+
+/** CAROUSEL de productos similares */
+
+.embla__sameProducts {
+  overflow: hidden;
+}
+.embla__container__sameProducts {
+  display: flex;
+}
+.embla__slide__sameProducts {
+  flex: 0 0 50%;
+  min-width: 0;
+}
+
+
+.customScroll::-webkit-scrollbar {
+  background-color: transparent; /* Color de fondo */
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4); /* Color de la barra */
+  border-radius: 3px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 5px; /* Ancho de la barra */
+}
