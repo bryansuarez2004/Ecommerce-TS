@@ -57,6 +57,8 @@ export const Comments = ({ idProduct }: Props) => {
                 </div>
             </div>
         </section>
+        <div className="max-h-[400px] my-8 overflow-auto customScroll">
+
         {comments.map((comment) => {
           return (
             <div key={comment.id} className="p-3 grid gap-3">
@@ -74,6 +76,7 @@ export const Comments = ({ idProduct }: Props) => {
             </div>
           );
         })}
+              </div>
       </div>
     </div>
   );

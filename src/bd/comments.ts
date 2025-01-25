@@ -224,7 +224,7 @@ export const commentsDB:comment[] = [
         fkProduct: 16,
         byName: "Patricia Sánchez",
         byEmail: "patricia.sanchez@example.com",
-        text: "La bufanda es súper suave y muy calentita, perfecta para el invierno.",
+        text: "los aretes muy bonitos, siempre me los pongo",
         date: "2025-01-19T17:24:05.123Z",
       },
       {
@@ -232,7 +232,7 @@ export const commentsDB:comment[] = [
         fkProduct: 16,
         byName: "Carlos Pérez",
         byEmail: "carlos.perez@example.com",
-        text: "Excelente calidad, me protege mucho del frío y se ve muy bien.",
+        text: "Excelente calidad, lo llevo usando varios meses",
         date: "2025-01-19T17:25:20.456Z",
       },
       {
@@ -240,7 +240,7 @@ export const commentsDB:comment[] = [
         fkProduct: 17,
         byName: "Lucía Fernández",
         byEmail: "lucia.fernandez@example.com",
-        text: "El sombrero es perfecto para los días de verano, cómodo y ligero.",
+        text: "el audio es perfecto, se escucha genial",
         date: "2025-01-19T17:26:00.789Z",
       },
       {
@@ -248,7 +248,7 @@ export const commentsDB:comment[] = [
         fkProduct: 17,
         byName: "Juan Rodríguez",
         byEmail: "juan.rodriguez@example.com",
-        text: "Muy fresco para el verano, me lo llevo siempre a la playa.",
+        text: "me encanta la calidad del audio",
         date: "2025-01-19T17:27:10.123Z",
       },
       {
@@ -256,7 +256,7 @@ export const commentsDB:comment[] = [
         fkProduct: 18,
         byName: "Isabel Gómez",
         byEmail: "isabel.gomez@example.com",
-        text: "Los guantes son muy cómodos y protegen del frío sin perder sensibilidad.",
+        text: "super practicos para conectar a tu celular",
         date: "2025-01-19T17:28:00.456Z",
       },
       {
@@ -264,7 +264,151 @@ export const commentsDB:comment[] = [
         fkProduct: 18,
         byName: "Antonio Martínez",
         byEmail: "antonio.martinez@example.com",
-        text: "El cuero de estos guantes es de muy buena calidad y se sienten muy suaves.",
+        text: "faciles de usar y tienen buen audio",
         date: "2025-01-19T17:29:05.789Z",
       },
+      {
+        id: 34,
+        fkProduct: 1,
+        byName: "Daniela Ruiz",
+        byEmail: "daniela.ruiz@example.com",
+        text: "Excelente producto, me ayuda mucho en mis entrenamientos.",
+        date: "2025-01-19T17:30:15.123Z"
+      },
+      {
+        id: 35,
+        fkProduct: 2,
+        byName: "Pedro Gómez",
+        byEmail: "pedro.gomez@example.com",
+        text: "Muy cómodo, ideal para el día a día.",
+        date: "2025-01-19T17:31:00.456Z"
+      },
+      {
+        id: 36,
+        fkProduct: 3,
+        byName: "Carlos Sánchez",
+        byEmail: "carlos.sanchez@example.com",
+        text: "El mejor polo que he comprado, super suave y cómodo.",
+        date: "2025-01-19T17:32:05.789Z"
+      },
+      {
+        id: 37,
+        fkProduct: 4,
+        byName: "Sofía Ramírez",
+        byEmail: "sofia.ramirez@example.com",
+        text: "Muy fresquito, lo uso para mis paseos en verano.",
+        date: "2025-01-19T17:33:15.123Z"
+      },
+      {
+        id: 38,
+        fkProduct: 5,
+        byName: "Laura Rodríguez",
+        byEmail: "laura.rodriguez@example.com",
+        text: "Perfecto para los días calurosos, muy cómodo.",
+        date: "2025-01-19T17:34:05.456Z"
+      },
+      {
+        id: 39,
+        fkProduct: 6,
+        byName: "José Martínez",
+        byEmail: "jose.martinez@example.com",
+        text: "Muy práctico para los días soleados, me encanta.",
+        date: "2025-01-19T17:35:20.789Z"
+      },
+      {
+        id: 40,
+        fkProduct: 7,
+        byName: "Marcela Torres",
+        byEmail: "marcela.torres@example.com",
+        text: "El estampado es increíble, perfecto para este verano.",
+        date: "2025-01-19T17:36:15.123Z"
+      },
+      {
+        id: 41,
+        fkProduct: 8,
+        byName: "Ricardo González",
+        byEmail: "ricardo.gonzalez@example.com",
+        text: "Es muy ligero y cómodo, ideal para el calor.",
+        date: "2025-01-19T17:37:10.456Z"
+      },
+      {
+        id: 42,
+        fkProduct: 9,
+        byName: "Mónica López",
+        byEmail: "monica.lopez@example.com",
+        text: "Lo uso todo el tiempo, perfecto para el frío.",
+        date: "2025-01-19T17:38:00.123Z"
+      },
+      {
+        id: 43,
+        fkProduct: 10,
+        byName: "Juan Pérez",
+        byEmail: "juan.perez@example.com",
+        text: "Excelente abrigo, me mantiene abrigado todo el día.",
+        date: "2025-01-19T17:39:10.789Z"
+      },
+      {
+        id: 44,
+        fkProduct: 11,
+        byName: "Lucía Fernández",
+        byEmail: "lucia.fernandez@example.com",
+        text: "Muy ligero pero mantiene el calor, lo uso constantemente.",
+        date: "2025-01-19T17:40:05.123Z"
+      },
+      {
+        id: 45,
+        fkProduct: 12,
+        byName: "Carlos Herrera",
+        byEmail: "carlos.herrera@example.com",
+        text: "Muy elegante, perfecto para las noches frías.",
+        date: "2025-01-19T17:41:20.456Z"
+      },
+      {
+        id: 46,
+        fkProduct: 13,
+        byName: "Patricia García",
+        byEmail: "patricia.garcia@example.com",
+        text: "Una cartera increíble, muy bonita y práctica.",
+        date: "2025-01-19T17:42:05.789Z"
+      },
+      {
+        id: 47,
+        fkProduct: 14,
+        byName: "Eva Sánchez",
+        byEmail: "eva.sanchez@example.com",
+        text: "Es perfecta para ocasiones formales, me encanta.",
+        date: "2025-01-19T17:43:15.123Z"
+      },
+      {
+        id: 48,
+        fkProduct: 15,
+        byName: "Ana Pérez",
+        byEmail: "ana.perez@example.com",
+        text: "Es un collar precioso, me encanta su brillo.",
+        date: "2025-01-19T17:44:05.456Z"
+      },
+      {
+        id: 49,
+        fkProduct: 16,
+        byName: "Carlos Ruiz",
+        byEmail: "carlos.ruiz@example.com",
+        text: "Los aretes son muy bonitos, me encantan.",
+        date: "2025-01-19T17:45:15.789Z"
+      },
+      {
+        id: 50,
+        fkProduct: 17,
+        byName: "Laura García",
+        byEmail: "laura.garcia@example.com",
+        text: "El audio es de excelente calidad, me encanta.",
+        date: "2025-01-19T17:46:20.123Z"
+      },
+      {
+        id: 51,
+        fkProduct: 18,
+        byName: "Fernando López",
+        byEmail: "fernando.lopez@example.com",
+        text: "Los auriculares son muy cómodos y el sonido es claro.",
+        date: "2025-01-19T17:47:05.456Z"
+      }
 ]
