@@ -3,7 +3,7 @@ import { comment, product } from "../../../models";
 import { IoSend } from "react-icons/io5";
 import { useUserStore } from "../../../store/UserStore";
 import { formatDate } from "../../../utils/date.format";
-import { useLocalStorage } from "../customHooks/UseLocalStorage";
+import { useLocalStorage } from "../customHooks/useLocalStorage";
 import { commentsDB } from "../../../bd";
 import { toast } from "sonner";
 
